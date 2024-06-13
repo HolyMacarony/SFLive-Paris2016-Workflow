@@ -9,7 +9,7 @@ class Task
 {
     #[ORM\Column(type: 'integer')]
     #[ORM\Id]
-    #[ORM\GeneratedValue(strategy: 'SEQUENCE')]
+    #[ORM\GeneratedValue(strategy: 'AUTO')]
     public int $id;
 
     #[ORM\Column(type: 'string', nullable: true)]
